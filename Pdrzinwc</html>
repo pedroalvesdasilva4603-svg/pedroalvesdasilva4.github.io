@@ -1,1 +1,255 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Painel de Serviços | @pdrzinwc</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+
+header{
+  text-align:center;
+  padding:24px;
+  background:rgba(0,0,0,.6);
+}
+header h1{
+  margin:0;
+  font-size:clamp(22px,5vw,36px);
+}
+header p{
+  color:#00ffcc;
+  font-weight:bold;
+  margin-top:6px;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:16px;
+}
+
+.badges{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-bottom:25px;
+}
+.badge{
+  border:1px solid #00ffcc;
+  padding:8px 12px;
+  border-radius:999px;
+  font-size:13px;
+  background:rgba(255,255,255,.08);
+}
+
+.section-title{
+  font-size:clamp(20px,5vw,26px);
+  margin:35px 0 15px;
+  border-left:5px solid #00ffcc;
+  padding-left:12px;
+}
+
+.card{
+  background:rgba(255,255,255,.08);
+  border-radius:16px;
+  padding:16px;
+  margin-bottom:15px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.info h3{
+  margin:0;
+  font-size:18px;
+}
+.info p{
+  margin-top:5px;
+  color:#ccc;
+  font-size:14px;
+}
+
+.actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.price{
+  color:#00ffcc;
+  font-size:18px;
+  font-weight:bold;
+}
+.buy{
+  background:#00ffcc;
+  color:#000;
+  padding:12px 18px;
+  border-radius:12px;
+  font-weight:bold;
+  text-decoration:none;
+  text-align:center;
+  width:100%;
+}
+@media(min-width:600px){
+  .buy{width:auto}
+}
+
+.list{
+  background:rgba(0,0,0,.35);
+  padding:18px;
+  border-radius:14px;
+  margin-top:20px;
+  font-size:14px;
+  color:#ddd;
+}
+
+.faq{
+  margin-top:30px;
+}
+.faq details{
+  background:rgba(255,255,255,.08);
+  border-radius:12px;
+  padding:14px;
+  margin-bottom:10px;
+}
+.faq summary{
+  cursor:pointer;
+  font-weight:bold;
+  color:#00ffcc;
+}
+
+.whats-fixed{
+  position:fixed;
+  right:16px;
+  bottom:16px;
+  background:#25D366;
+  color:#000;
+  padding:14px 18px;
+  border-radius:999px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
+
+footer{
+  text-align:center;
+  padding:18px;
+  background:rgba(0,0,0,.4);
+  color:#aaa;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Painel Profissional de Serviços</h1>
+  <p>@pdrzinwc</p>
+</header>
+
+<div class="container">
+
+<div class="badges">
+  <div class="badge">✔ Seguro</div>
+  <div class="badge">⚡ Rápido</div>
+  <div class="badge">🔒 Privado</div>
+  <div class="badge">📈 Resultados</div>
+  <div class="badge">💬 Suporte WhatsApp</div>
+</div>
+
+<div class="section-title">Instagram</div>
+
+<div class="card">
+  <div class="info">
+    <h3>Seguidores Instagram</h3>
+    <p>Entrega rápida e segura</p>
+  </div>
+  <div class="actions">
+    <span class="price">R$ 10,00</span>
+    <a class="buy" href="https://wa.me/5511964090035">Comprar</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="info">
+    <h3>Curtidas Instagram</h3>
+    <p>Mais engajamento nos posts</p>
+  </div>
+  <div class="actions">
+    <span class="price">R$ 8,00</span>
+    <a class="buy" href="https://wa.me/5511964090035">Comprar</a>
+  </div>
+</div>
+
+<div class="section-title">TikTok</div>
+
+<div class="card">
+  <div class="info">
+    <h3>Seguidores TikTok</h3>
+    <p>Cresça seu perfil</p>
+  </div>
+  <div class="actions">
+    <span class="price">R$ 12,00</span>
+    <a class="buy" href="https://wa.me/5511964090035">Comprar</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="info">
+    <h3>Visualizações TikTok</h3>
+    <p>Mais alcance nos vídeos</p>
+  </div>
+  <div class="actions">
+    <span class="price">R$ 7,00</span>
+    <a class="buy" href="https://wa.me/5511964090035">Comprar</a>
+  </div>
+</div>
+
+<div class="section-title">Como Funciona</div>
+<div class="list">
+  <ul>
+    <li>Escolha o serviço</li>
+    <li>Clique em comprar</li>
+    <li>Fale conosco no WhatsApp</li>
+    <li>Envie o @ do perfil</li>
+    <li>Entrega iniciada rapidamente</li>
+  </ul>
+</div>
+
+<div class="section-title">Perguntas Frequentes</div>
+<div class="faq">
+  <details>
+    <summary>Preciso passar minha senha?</summary>
+    <p>Não. Nunca pedimos senha.</p>
+  </details>
+  <details>
+    <summary>Quanto tempo demora?</summary>
+    <p>Normalmente iniciamos em minutos.</p>
+  </details>
+  <details>
+    <summary>É seguro?</summary>
+    <p>Sim, métodos seguros e privados.</p>
+  </details>
+</div>
+
+</div>
+
+<a class="whats-fixed" href="https://wa.me/5511964090035">WhatsApp</a>
+
+<footer>
+© 2026 • Painel Oficial @pdrzinwc
+</footer>
+
+</body>
+</html>
